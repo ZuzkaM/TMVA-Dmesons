@@ -82,13 +82,13 @@ void t::Loop()
       var[1] = k_pt;
       var[2] = pi1_pt;
       var[3] = pi2_pt;
-      var[4] = 100000*k_dca;
-      var[5] = 100000*pi1_dca;
-      var[6] = 100000*pi2_dca;
-      var[7] = 100000*dcaMax;
+      var[4] = 10000*k_dca;
+      var[5] = 10000*pi1_dca;
+      var[6] = 10000*pi2_dca;
+      var[7] = 10000*dcaMax;
       var[8] = TMath::Cos(D_theta);
-      var[9] = 100000*D_decayL;
-      var[10] = 100000*D_dV0Max;
+      var[9] = 10000*D_decayL;
+      var[10] = 10000*D_dV0Max;
       var[11] = D_mass;
       
       //if((flag > 1) && (primVz < 6))
